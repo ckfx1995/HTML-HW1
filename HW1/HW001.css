@@ -11,17 +11,15 @@
 .box-a{
     width: 415px ;
     box-sizing: padding-box;
-
-  padding-left: 30px;
+      padding-left: 30px;
   background-color:#778A50;
   float:  left;
 }
 .box-b{
   box-sizing: padding-box;
-    width: 415px ;
-
+  width: 415px ;
   padding-left: 30px;
-float:  right;
+  float:  right;
   background-color:#778A50;
 
 }
@@ -29,7 +27,6 @@ float:  right;
   box-sizing: padding-box;
   width: 413px;
    height: 140px;
-  box-sizing: padding-box;
   padding-left: 16px;
   padding-right:  16px;
   background-color:#F7FBDA;
@@ -67,7 +64,6 @@ padding-bottom: 30px;
   padding-right: 30px;
   float:  left;
   list-style:  none;
-
 }
 .site-nav a{
   font-weight:bold;
@@ -143,12 +139,15 @@ header .icons-bar, header .member-function {
     display: block;
     clear: both;
 }
-header .icons-bar, header .member-function {
-    display: inline-block;
-    margin-top: 19px;
-    float:left;
+
+header {
+  padding-top: 53px;
+    padding-bottom: 17px;
 }
 
+.left {
+    float: left;
+}
 header .member-function {
     margin-left: 10px;
     border-left: 1px solid #778A50;
@@ -156,9 +155,8 @@ header .member-function {
 .container {
     position: relative;
     margin: 0 auto;
-    width: 1260px;
+    width: 940px;
     padding: 0 160px;
-    box-sizing: border-box;
 }
 footer {
     margin-top: 35px;
@@ -168,26 +166,13 @@ footer {
     padding: 24px 0 25px;
     font-size: 12px;
 }
-.box-back {
-  position: relative;
-  margin: 0 auto;
-  width: 1260px;
-  padding: 0 160px;
-  box-sizing: border-box;
-}
-#air{
-  padding-top: 15px;
-}
-h1{
-  font-weight:bold;
-  font-size: 44px;
-  color: #778A50;
-
+#title {
+    font: 44px/1 "Arial Black";
+    color: #778A50;
+    margin: 0;
 }
 h1, h2 {
     font-family: "Arial Black", sans-serif;
-    margin: 0;
-    padding: 0;
 }
 h2{
   font-weight:bold;
